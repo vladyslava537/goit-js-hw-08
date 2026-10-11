@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #fafafa;
+  line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.gallery img {
+    height: 300px;
+    width: 360px;
+    object-fit: cover;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    width: 1128px;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
